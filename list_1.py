@@ -36,6 +36,8 @@ while flag:
                         _identical_items.append(y);
             if len(_identical_items)>0:
                 print("There are common elements : ",_identical_items);
+            else:
+                print("There are no common elements ");
     flag=int(input("Do you want to continue enter 1 for yes and 0 for no : "));
     if flag>1:
         flag=0;
