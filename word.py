@@ -1,5 +1,6 @@
 _wrd=input("Enter the Word: ");
 _wrdlist=_wrd.split();
+# _wordlist=list(set(_wrdlist));
 _occurence_str='';
 for x in _wrdlist:
     _occ=0;
